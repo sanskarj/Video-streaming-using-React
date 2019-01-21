@@ -1,0 +1,112 @@
+.header-row{
+    height: 5rem;
+    background-color: aqua;
+}
+.btns{
+    display: flex;
+    justify-content: space-around;
+}
+.main-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
+}
+
+.details-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+   
+    margin-bottom: 2rem;
+
+} 
+
+
+.main-stream-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.stream-container{
+    width: 80%;
+   background-color: antiquewhite;
+   margin-bottom: 2rem;
+   
+   
+
+} 
+
+.btn-container{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10rem;
+
+
+}
+.btn{
+    
+}
+.image-1{
+    height: 5rem;
+    width: 5rem;
+}
+.alert-container{
+    width: 60%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   border: 2px solid black;
+   padding : 5rem 0rem;
+}
+.btn-containers{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+
+#modals-container{
+    position: fixed;
+    z-index: 400;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.9);
+    top: 0;
+    left: 0;
+   color: black;
+}
+.que{
+
+}
+.modals{
+    position: absolute;
+    height: 40%;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    border-radius: 2rem;
+}
+.btns-delete-container{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    
+
+
+}
